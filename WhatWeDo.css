@@ -1,0 +1,154 @@
+
+.image4{
+  height: 45em;
+  width: 43em;
+  margin-top: 70px;
+  border-radius: 10% 0%;
+
+}
+.image5{
+  height: 13em;
+  width: 15em;
+  margin-top: 25px;
+  border-radius: 10% 0%;
+  position: relative;
+
+
+
+}
+#block4{
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  padding:5px;
+  /* float:right; */
+  width:35em;
+  height:20em;  
+  top:25em;
+  position: absolute;
+  margin-left: 6em;
+  border-radius: 0% 20%;
+  left: 25em;
+}
+
+.image6{
+  width:54em;
+  height:40em;  
+  /* top:9.6em; */
+  position: absolute;
+  left: 43em;
+  margin-top: 1px;
+
+}
+/* Large rounded green border */
+hr.new5 {
+  border: 5px solid rgb(35, 150, 170);
+  border-radius: 5px;
+  width: 20em;
+  position:absolute;
+  left:8px;
+  bottom:290px;
+}
+
+hr.new6 {
+  border: 5px solid rgb(35, 150, 170);
+  border-radius: 5px;
+  width: 20em;
+  position:absolute;
+  left:1px;
+  top:0px;
+}
+
+.blockText{
+  font-size: 50px;
+  position:absolute;
+  bottom:25px;
+  left:7px;
+  color:rgb(17, 141, 141);
+}
+
+#block5{
+  background-color: rgb(255, 255, 255);
+  position:absolute;
+  
+  width:35em;
+  height:40em;  
+  top:30em;
+  position: absolute;
+  margin-left: 6em;
+  border-radius: 0% 20%;
+  left: 5em;
+}
+.blockText1{  
+  position:absolute;
+  bottom:260px;
+  left:7px;
+  color:rgb(17, 141, 141);
+}
+
+
+.image7{
+  
+  /* top:9.6em; */
+  position: absolute;  
+ right:40em;
+
+}
+
+
+.image9{
+  
+  /* top:9.6em; */
+  position: absolute;  
+ right:20em;
+ width:55em;
+  height:35em;  
+top:30em;
+border-radius: 10% 0%;
+
+ 
+
+}
+
+#block6{
+  background-color: rgb(236, 232, 232);
+  position:absolute;  
+  width:35em;
+  height:20em;  
+  top:53em;
+  position: absolute;
+  margin-left: 6em;
+  border-radius: 0% 20%;
+  right: 25em;
+}
+.blockText2{  
+  position:absolute;   
+  color:rgb(17, 141, 141);
+  top:22px;
+}
+
+/* #box1{
+    background-color:orange;
+    padding:5px;
+    width:50px;
+    height:50px;
+    position:absolute;
+    left=100px;
+    top=100px;
+} */
+
+#box1{
+  background-color:rgb(250, 249, 246);
+  padding:5px;
+  width:20em;
+  height:70px;
+  position:absolute;
+  right:50em;
+  bottom: 90.5em;
+}
+#box1, h2{
+  text-align: center;
+  color:rgb(42, 177, 177);
+}
+footer{
+  bottom: 100em;
+}

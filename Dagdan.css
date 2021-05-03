@@ -1,0 +1,279 @@
+
+
+ /* .name {
+    width: 100px;
+    height: 30px;
+    margin-top: 0%;    
+    padding-bottom: 0px;
+    padding-top: 6%;
+    bottom:50px;
+    background: linear-gradient( 0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    animation: animateBg 2s infinite linear;  
+
+}  */
+
+/* .name {
+    animation: animateBg 2s infinite linear;
+    background-color: #fff;
+    background-image: linear-gradient(90deg, #da3287, #ffde5e, #da3287, #ffde5e);
+    background-size: 300% 100%;
+    box-shadow: 0 3px 14px #000;
+    width:235px;
+    height:130px;
+    position: relative;
+    align-content: center;
+    font-size: larger;
+    align-self: center;
+    font:italic;  
+  }
+  @keyframes animateBg {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  } */
+
+
+/* h2{
+    text-align: center; 
+    margin-bottom: 0em;
+    padding-top: 4em;
+    padding-bottom:2em; 
+    margin:0;
+    position: relative;
+    font-size: 70px;   
+    
+    
+}  */
+
+/* img{
+  position:absolute;
+  left:13em;
+  bottom:3em;
+  width:4cm ;
+  height:4cm;
+  opacity:0.4;
+
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(177, 127, 19);
+  text-align: center; 
+  padding:20px;
+
+  
+  
+  
+}
+.test{
+  padding-top:0px;
+  font-size: 30px; 
+  font:oblique;
+}
+li {
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 20px;  
+}
+/* .name{
+  margin-right: 5em;
+} */
+
+li a {
+  display: block;
+  color: rgb(235, 234, 240);
+  text-align: center;
+  padding: 14px 15px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(199, 159, 133);
+
+}
+
+/* .active {
+  background-color: #4CAF50;
+} */
+.image1 {
+  height: 40em;
+  width:60em;
+  
+}
+.image2{
+  margin-top: 20px;
+  width:80em;
+  height: 55em;
+  border-radius: 50px 30px;
+  padding-bottom: 10rem;
+}  
+
+.logo{
+  height: 70px;
+  margin-left: 50px;
+}
+
+.name{
+  font:bold;
+  margin-top: 33px;
+  left:40px;
+}
+
+#block{
+  background-color: rgb(250, 249, 246);
+  position:absolute;
+  padding:20px;
+  /* float:right; */
+  width:45em;
+  height:20em;
+  top: 3em;
+  right: 4em;
+  /* margin-left: 10em; */
+  display:grid;
+  grid-template-columns:repeat(12,1fr);
+  /* border-radius: 50px 30px; */
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 0px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(95, 7, 7);
+  height:60px;
+ 
+}
+.fa-instagram { 
+  color: white;
+  height: 20px;
+  width: 30px;
+  font-size: 5rem;
+}
+.fa-home { 
+  color: white;
+  font-size: 5rem;
+  margin-right: 1em;
+
+}
+.fa-envelope { 
+  color: white;
+  font-size: 5rem;
+  margin-right: 1em;
+
+}
+.fa-phone-square
+{ 
+  color: white;  
+  font-size: 5rem;
+  margin-right: 1em;
+}
+footer{
+  padding:10px;
+  background-color: rgb(160, 146, 25);
+}
+
+main{
+  position: relative;
+}
+
+#block1{
+  background-color: rgb(253, 253, 255);
+  position:absolute;
+  padding:5px;
+  /* float:right; */
+  width:35em;
+  height:20em;
+  top: 71em;
+  right: 4em;
+  /* margin-left: 10em; */
+  display:grid;
+  grid-template-columns:repeat(12,1fr);
+  /* border-radius: 50px 30px; */
+  font-size: 1em;  
+  color:rgb(62, 39, 126); 
+}
+
+ 
+  .flex-container>div{
+    display:flex;
+    flex-wrap: nowrap;
+    background-color: rgb(250, 249, 246);
+    width: 550px;
+    height: 200px;
+    margin: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    vertical-align: baseline;
+    color:rgb(62, 39, 126); 
+
+}
+/* mark{
+  background-color: rgb(172, 120, 43);
+  color:white;
+} */
+
+.flex >div{
+  display:flex;
+  background-color: rgb(250, 249, 246);
+  width: 550px;
+  height: 200px; 
+  text-align: center;
+  font-size: 1em;  
+  color:rgb(62, 39, 126); 
+  background-color: rgb(253, 253, 255);
+  position:absolute;
+  padding:20px;
+  width:25em;
+  height:10em;
+  top: 26em;
+  right: 4em;
+
+}
+.flex2 > div{
+  display:flex;
+  background-color: rgb(158, 122, 14);
+  width: 530px;
+  height: 200px; 
+  text-align: center;
+  font-size: 1em;  
+  color:rgb(62, 39, 126); 
+  background-color: rgb(253, 253, 255);
+  position:absolute;
+  width:35em;
+  height:10em;
+    border-radius: 50px 30px;
+  
+
+}
+
+#block3 {
+  background-color: rgb(253, 253, 255);
+  position:absolute;
+  padding:5px;
+  /* float:right; */
+  width:35em;
+  height:20em;  
+  top:75em;
+  position: absolute;
+  margin-left: 6em;
+}
+
+.image3{
+  width:34em;
+  height:19em;  
+  /* top:55em; */
+  position: absolute;
+  padding:1em;
+
+}
+
+
+
+
+ 

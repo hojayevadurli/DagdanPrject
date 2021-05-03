@@ -1,0 +1,125 @@
+#box1{
+    background-color:rgb(250, 249, 246);
+    padding:5px;
+    width:20em;
+    height:70px;
+    position:absolute;
+    /* right:50em; */
+    /* bottom: 90.5em; */
+  }
+#box1, h2{
+    text-align: center;
+    color:rgb(42, 177, 177);
+  }
+
+  #block5{
+    background-color: rgb(255, 255, 255);
+    position:absolute;    
+    width:35em;
+    height:45em;  
+    top:20em;
+    position: absolute;
+    margin-left: 6em;
+    
+    left: 15em;
+  }
+  hr.new6 {
+    border: 5px solid rgb(102, 7, 126);
+    border-radius: 5px;
+    width: 5em;
+    position:absolute;
+    left:1px;
+    top:-25px;
+  }
+
+  .image10{   
+position: absolute;  
+ right:35em;
+ width:17em;
+  height:22em;  
+top:10em;
+border-radius: 10px;
+
+} 
+
+.image11{   
+  position: absolute;  
+   right:15em;
+   width:17em;
+  height:22em;  
+  top:20em;
+  border-radius: 10px;
+  
+  } 
+  .image12{   
+    position: absolute;  
+     right:-5em;
+     width:17em;
+    height:22em;  
+    top:28em;
+    border-radius: 10px;
+    
+    } 
+    .image14{   
+      position: absolute;  
+       right:-25em;
+       width:17em;
+      height:22em;  
+      top:36em;
+      border-radius: 10px;
+      
+      } 
+
+      .image15{
+  
+        /* top:9.6em; */
+        position: absolute;  
+       left :27em;
+       top:5em;
+       opacity: 50%;
+      
+      }
+
+      #box2{
+        background-color:white;
+        padding:5px;
+        width:30em;
+        height:5em;
+        position:absolute;
+        right:20em;
+        top:46.5em;
+        
+      }
+
+       h3{        
+        font-size: 4em;       
+        text-align: center;
+        color:rgb(32, 10, 155);
+      }
+
+      #box3{
+        background-color:white;
+        padding:5px;
+        width:40em;
+        height:20em;
+        position:absolute;
+        right:10em;
+        top:56.5em;
+        
+      }
+      hr.new7 {
+        border: 5px solid rgb(102, 7, 126);
+        border-radius: 5px;
+        width: 8em;
+        position:absolute;
+       left:-15em;
+        top:54em;
+      }
+      
+      
+      p, strong{
+      text-align: center;
+      font-size: 30px;   
+      
+    }
+

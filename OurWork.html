@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/vue@next"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="Dagdan.css" />
+
+<link rel="stylesheet" href="OurWork.css" />
+<script src="dagdan.js"> </script>
+<script src="OurWork.js" defer> </script>
+
+  <title>Our Work</title>
+</head>
+<body>
+  <main>
+    <div id="box1">
+      <h2><strong>Our Work</strong></h2>    
+   </div>
+   <div id="box2">
+    <h2><strong>A FEW HIGHLIGHTS</strong></h2>    
+    <hr class="line1">
+ </div>
+
+ <div id="box3">
+  <p>
+    Here are just a few of the hundreds of projects we have completed and gave modern
+    design and beauty.
+      We have delivery service across country.
+    </p>
+  
+</div>
+<div>
+<img src="/pictures/OurWork7.1.jpg" alt="Swings" class="image15">
+<img src="/pictures/OurWork7.2.jpg" alt="Swings" class="image16">
+<img src="/pictures/OurWork7.jpg" alt="Swings"class="image17">
+<img src="/pictures/OurWork7.3.jpg" class="image18">
+<img src="/pictures/OurWork9.2.jpg" class="image19">
+<img src="/pictures/OurWork9.jpg" class="image20">
+<img src="/pictures/OurWork9.1.jpg" class="image21">
+<img src="/pictures/OurWork9.3.jpg" class="image22">
+<img src="/pictures/OurWork9.2.jpg" class="image23">
+
+
+<div id="box5">
+  <h2><strong>price:200$</strong></h2>    
+</div>
+<div id="box6">
+  <h2><strong>price:300$</strong></h2>    
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- <div id="boxbig">
+  <div id="smallBox">
+    <ul>
+      <li>Stairs</li>
+      <li>Tables</li>
+      <li>Chairs</li>
+      <li>Out Door Sittings</li>
+    </ul>
+
+  </div> -->
+  
+</div>
+
+<div box id="box16">
+  <div>
+    <table id="array-rendering" style="width:100%">
+      <tr>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Cost</th>
+      </tr>
+       <tr v-for="item of items">
+      <td><input v-model="item.price" /></td>
+      <td><input v-model="item.quantity" /> </td>
+      <td>{{ item.price * item.quantity }} </td>
+  </tr>
+  <tr>
+      <td>
+          <button @click="add">add</button>
+      </td>
+  </tr>
+  <tr>
+      <td>
+          <button @click="calculate">calculate</button>
+      </td>
+  </tr>
+  <tr v-for="math">
+      <td>subtotal:{{subtotal}}</td>
+      <td> tax:{{tax}} </td>
+      <td>total:{{total}}</td>
+  </tr>
+      </div>
+    </table>
+  
+</div>
+<!-- <footer></footer> -->
+  </main>
+</body>
+</html>

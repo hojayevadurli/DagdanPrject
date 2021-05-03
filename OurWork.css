@@ -1,0 +1,210 @@
+#box1{
+    background-color:white;
+    padding:5px;
+    width:20em;
+    height:70px;
+    position:absolute;
+    /* right:50em; */
+    /* bottom: 90.5em; */
+  }
+
+  #box1 h2{
+    text-align: center;
+    color:rgb(42, 177, 177);
+  }
+
+  #box2{
+    background-color:white;
+    padding:5px;
+    width:40em;
+    height:110px;
+    position:absolute;
+    left:45px;
+   top:7em;
+  }
+
+  #box2 h2{
+    text-align: center;
+    color:rgb(15, 23, 124);
+    text-align: center;
+    font-size: 4em;
+
+  }
+
+  hr.line1{
+    border: 5px solid rgb(102, 7, 126);    
+    width: 10em;
+    position:absolute;
+    left:20px;
+    top: 5em;
+  }
+
+  #box3{
+    background-color:white;
+    padding:5px;
+    width:40em;
+    height:110px;
+    position:absolute;
+    left:60px;
+   top:17em;
+  }
+
+.image15{
+    top:25em; 
+    position: absolute;  
+    left:10em;
+    width: 55em;
+    /* border:solid 5px orange; */   
+    border-radius: 150px 0px 0px;
+   
+}
+.image16{
+  top:85em; 
+  position: absolute;  
+  left:10em;
+  width: 15em;
+  /* border:solid 5px orange; */
+ 
+  border-radius: 150px 0px 0px;
+ 
+}
+
+.image17{
+  top:85em; 
+  position: absolute;  
+  left:30em;
+  width: 15em;
+  /* border:solid 5px orange; */
+    
+}
+
+.image18{
+  top:85em; 
+  position: absolute;  
+  left:50em;
+  width: 15em;
+  height:15em;
+  border-radius: 0px 0px 150px;
+  
+    
+}
+.image19{
+  top:25em; 
+  position: absolute;  
+  left:80em;
+  width: 55em;
+  /* border:solid 5px orange; */   
+  border-radius: 150px 0px 0px;
+ height:55em;
+  
+    
+}
+.image20{
+  top:85em; 
+  position: absolute;  
+  left:80em;
+  width: 15em;
+  height:15em;
+  border-radius: 150px 0px 0px;
+  
+    
+}
+
+img:hover{
+border:solid 5px orange;
+}
+.image21{
+  top:85em; 
+  position: absolute;  
+  left:80em;
+  width: 15em;
+  height:15em;
+  border-radius: 150px 0px 0px;
+  
+    
+}
+
+.image22{
+  top:85em; 
+  position: absolute;  
+  left:100em;
+  width: 15em;
+  height:15em; 
+    
+}
+  
+.image23{
+  top:85em; 
+  position: absolute;  
+  left:120em;
+  width: 15em;
+  height:15em; 
+  border-radius: 0px 0px 150px;
+
+
+}
+
+#array-rendering table{
+  top:150em;
+}
+/* #boxbig{
+  background-color:white;
+    padding:5px;
+    width:75em;
+    height:55em;
+    position:absolute;
+    left:80px;
+   top:27em;
+   border:solid 10px black;
+
+}
+#smallBox{
+  background-color:white;
+    padding:5px;
+    width:25em;
+    height:45em;
+    position:absolute;
+    left:40px;
+   top:5em;
+   border:solid 10px black;
+
+} */
+
+#box16{
+  top:150em;
+  background-color:white;
+  padding:5px;
+  width:55em;
+  height:15em;
+  position:absolute;
+  left:80px;
+ top:107em;
+ border:solid 10px black;
+}
+
+
+#box5 {
+  top:150em;
+  background-color:white;
+  padding:5px;
+  width:25em;
+  height:3em;
+  position:absolute;
+  left:17em;
+ top:102em;
+ border:solid 1px black;
+
+}
+
+#box6 {
+  top:150em;
+  background-color:white;
+  padding:5px;
+  width:25em;
+  height:3em;
+  position:absolute;
+  left:97em;
+ top:102em;
+ border:solid 1px black;
+
+}
